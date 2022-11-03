@@ -4,11 +4,19 @@
     box-sizing: border-box;
 }
 body{
-    
+    font: 18px;
+    font-family: 'Roboto Regular',Helvetica,Arial,Lucida,sans-serif;
 }
 header{
     display: flex;
     height: 120px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+main{
+    color: rgb(82, 133, 190);
 }
 /* Display flex  */
 .flex{
@@ -43,7 +51,7 @@ header{
 }
 .btn:hover {
     color: rgb(184, 137, 189);
-    background-color: rgb(226, 235, 232);
+    background-color: rgb(218, 231, 238);
     padding: 15px;
     font-size: 25px;
     transition: 0.3s all;
@@ -63,5 +71,93 @@ header{
 /* Le footer */
 footer{
     
-    background-color:rgb(102, 154, 214);
+}
+.section_footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(36, 67, 102);
+    color: white;
+    font-size: 14px;
+    padding: 15px;
+}
+.none_style{
+    list-style: none;
+}
+/* reduire la tail des iconset des logos reseaux */
+.icon{
+    width: 13px;
+}
+.logo_reseaux{
+    width: 30px;
+    margin-inline: 7px;
+}
+/* 2 ème footer */
+.section_footer2{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align-last: right;
+    justify-content: right;
+    padding-inline: 20px;
+}
+/* page Acceil */
+#div_acceil{
+    text-align: justify;
+    padding: 3% 17%;
+    margin-left: 5%;
+}
+.div2_acceil{
+    padding: 3% 17%;
+    margin-left: 5%;
+}
+/* La vidéo Youtube */
+#lien_youtube{
+    text-align: center;
+    padding: 5%;
+    width: auto;
+}
+/* Image de plongée à Marseille */
+#img_plonger{
+    width: 95%;
+    padding-top: 7%;}
+/* Centrée le main de la page GUIDE */
+#wid{
+    width: 85%;
+    padding-left: 20%;
+}
+.section_guide{
+    margin: 5%;
+    text-align: justify;
+
+}
+/* padding bottom */
+.pad_bot{
+    padding-bottom: 10px;
+}
+.pad_bot2{
+    padding-bottom: 30px;
+}
+/* la page ou planger */
+#main_ou_plang{
+padding-left: 23%;
+padding-right: 19%;
+padding-top: 7%;
+}
+.div_ou{
+    padding: 4% 0;
+    text-align: justify;
+}
+/* centrer les vidéo */
+.ou_video{
+    padding: 5% 15%;
+}
+/* Le formulaire */
+#main_formu{
+    background-color: #88c1d0!important;
+}
+#backround{
+    background-color: white;
+    width: 60%;
+    padding:5% 15%;
+    margin-left: 22%;
 }
