@@ -28,6 +28,11 @@
                     </a>
                 </li>
                 <li class="btn">
+                    <a class="deco_btn" href="gide_local_et_liens.html">
+                        Gide Local & Liens
+                    </a>
+                </li>
+                <li class="btn">
                     <a class="deco_btn" href="quand_pangee.html">
                     Quand Planger
                     </a>
@@ -35,11 +40,6 @@
                 <li class="btn">
                     <a class="deco_btn" href="apnee_et_chasse.html">
                     Apnée et Chasse
-                    </a>
-                </li>
-                <li class="btn">
-                    <a class="deco_btn" href="gide_local_et_liens.html">
-                        Gide Local & Liens
                     </a>
                 </li>
                 <li class="btn">
@@ -59,40 +59,47 @@
 
 
     <main id="main_formu">
-        <form action="">
-            <h2>Remplissez ce formulaire et nous reviendrons vers vous</h2>
-            <div id="backround">
-
-                <div class="div_formulaire">
-                    <label for="prenom">Prénom</label>
-                    <input type="text">
-                    <label for="email">Email</label>
-                    <input type="email">
-                    <label for="adresse">Adresse</label>
-                    <input type="text">
-                    <label for="poste">Code Postale</label>
-                    <input type="number">
-                    <p></p>
-                    <p></p>
-                    <label for=""><input type="checkbox">Inscrivez-vous à notre newsletter</label>
-                    <p></p>
-                    <button type="submit"> Envoyer</button>
-
-                </div>
-
-                <div class="div_formulaire">
-                    <label for="nom">nom</label>
-                    <input type="text">
-                    <label for="telephone">Télephone</label>
-                    <input type="number">
-                    <label for="ville">Ville</label>
-                    <input type="text">
-                    <label for="niveau_etude">Quel est votre niveau d'étude ?</label>
-                    <input type="text">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                </div>
+        <h2 id="h_contact">Remplissez ce formulaire et nous reviendrons vers vous</h2>
+        <form id="backround" action="">
+            <div class="formu">
+                <label for="prenom">Prénom</label>        
+                <input type="text">
             </div>
+
+            <div class="formu">
+                <label for="nom">nom</label>
+                <input type="text">
+            </div>
+            <div class="formu">
+                <label for="telephone">Télephone</label>
+                <input type="number">
+            </div>
+            <div class="formu">
+                <label for="email">Email</label>
+                <input type="email">
+            </div>
+            <div class="formu">
+                <label for="adresse">Adresse</label>
+                <input type="text">
+
+            </div>
+            <div class="formu">
+                <label for="poste">Code Postale</label>
+                <input type="number">
+            </div>
+            <div class="formu">
+                <label for="ville">Ville</label>
+                <input type="text">
+            </div>
+            <div class="formu">
+                <label for="message">Message</label>
+                <textarea name="message" cols="40" rows="10"></textarea>
+            </div>
+            <div class="formu">
+                <label for=""><input type="checkbox">Inscrivez-vous à notre newsletter</label>
+                <button id="buttom" type="submit"><a href="contact@gmail.com"><strong>Envoyer</strong></a></button>
+            </div>
+     
         </form>
     </main>
 
